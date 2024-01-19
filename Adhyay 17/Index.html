@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sizing</title>
+    <style>
+      .box {
+        border: 2px solid black;
+        width: 80vw;
+        height: 10vh;
+        background-color: aqua;
+        margin: auto;
+      }
+
+      .container {
+        border: 2px solid black;
+        width: 80vw;
+        min-height: 80vh;
+        background-color: aqua;
+        margin: 23px auto;
+        font-size: 16px;
+      }
+
+      .container div {
+        font-size: 2em;
+        width: 50%;
+        border: solid red;
+      }
+
+      .container > div > div {
+        font-size: 1em;
+        width: 50%;
+        border: solid black;
+      }
+
+      .mycont {
+        color: yellowgreen;
+        background-color: violet;
+        width: 100vmin;
+        margin: 23px auto;
+        border: solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">Jai Siya Ram</div>
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error unde,
+        molestias tempora commodi veniam quam, modi perspiciatis eos ad
+        inventore libero dolores?
+      </div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+      blanditiis nihil dolores commodi fuga animi temporibus illo culpa veniam
+      libero, sed quibusdam quae quidem, earum quo minima! Corporis repudiandae
+      laudantium pariatur deleniti, impedit consectetur ex atque quaerat
+      voluptas dignissimos eos.
+    </div>
+    <div class="mycont">Jai Bhageshwar Bappa ju</div>
+  </body>
+</html>

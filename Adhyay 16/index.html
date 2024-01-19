@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS specificity and casecode/title>
+    <style>
+        h1{
+            color: aqua;
+        }
+h1.cgreen{
+    color: rgb(113, 0, 128);
+}
+.cblue{
+    color: blue ;
+}
+.cred{
+    color: red;
+}
+[data-x=A] {
+    background-color: blueviolet;
+}
+    </style>
+</head>
+<body>
+    <div>
+    <h1 class="cgreen cblue cred" data-x="A">  This Is Adhayay 16 on css  specificity </h1>
+</body>
+</html>
